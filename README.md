@@ -1,6 +1,7 @@
 # web_form
 
 FORM PAGE (index.php – This is the main page.)
+
 A simple web form collecting the following information about a user:
 •	First name
 •	Last name
