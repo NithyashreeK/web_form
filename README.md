@@ -3,11 +3,17 @@
 FORM PAGE (index.php – This is the main page.)
 
 A simple web form collecting the following information about a user:
+
 •	First name
+
 •	Last name
+
 •	Email address
+
 •	Mailing address
+
 All fields are required (except address line 2 and zipcode 4).
+
 RADIO BUTTONS:
 The user has an option to choose between the entered address and the validated address. Initially these radio buttons are disabled. 
 Both the buttons are enabled if a validated/standardized address is obtained for the corresponding entered address. 
