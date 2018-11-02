@@ -17,6 +17,7 @@ Submit button is disabled until the user enters all the information and chooses 
 VALIDATE BUTTON:
 If the entered address can be validated to return a standardized address, the result shows up in the space below validate button.
 
+
 RECORD PAGE (record.php)
 This page contains a table of submitted information stored in the database. The table has the following columns:
 •	ID (Primary key)
@@ -25,14 +26,17 @@ This page contains a table of submitted information stored in the database. The 
 •	Email
 •	Address
 
+
 LIST.PHP
 This page contains the query that inserts the data into the database by grabbing the user information after the user clicks submit.
 Table name used here is formdata with the columns for ID, first name, last name, email, address and timestamp.
 After a successful entry into the database, index.php page reloads with submit=success.
 
+
 CONNECT.PHP
 This page establishes the connection to the MySQL server by using the server name, user name, password and the database name.
 For this project, the server name is localhost, user name is root, password is blank (no password used) and database name used is userinformation.
+
 
 Tools and functionalities:
 I used XAMPP for testing the application locally and storing data in phpMyAdmin.
