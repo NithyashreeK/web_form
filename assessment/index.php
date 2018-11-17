@@ -88,7 +88,7 @@ include_once 'includes/connect.php';
 				
 				var request = new XMLHttpRequest();
 
-	        	var xmlval = '<AddressValidateRequest USERID="624STUDE2250"><Address ID="0"><Address1>'+address1+'</Address1><Address2>'+address2+'</Address2><City>'+city+'</City><State>'+state+'</State><Zip5>'+zip5+'</Zip5><Zip4>'+zip4+'</Zip4></Address></AddressValidateRequest>';
+	        	var xmlval = '<AddressValidateRequest USERID="enterUserID"><Address ID="0"><Address1>'+address1+'</Address1><Address2>'+address2+'</Address2><City>'+city+'</City><State>'+state+'</State><Zip5>'+zip5+'</Zip5><Zip4>'+zip4+'</Zip4></Address></AddressValidateRequest>';
 
 				request.open('GET', 'http://production.shippingapis.com/ShippingAPI.dll?API=Verify&XML='+xmlval, true);
 
